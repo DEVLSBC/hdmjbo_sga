@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&subset=greek-ext');
+
+:root {
+  /* Cor padrão prefeitura 
+  --corprincipal : #199B91;
+  --corprincipal2: #1ed1c2;
+*/
+  /* Cor setembro 
+  --corprincipal : #eeb645;
+  --corprincipal2: #f1cd39;
+*/
+  /* Cor outubro 
+  --corprincipal : #ec007c;
+  --corprincipal2: #ef98cd;
+*/
+  /* Cor novembro 
+  --corprincipal : #2a78be;
+  --corprincipal2: #73afde;
+*/
+
+  /* --corprincipal : #199B91;
+  --corprincipal2: #1ed1c2; */
+  --corprincipal: #199B91;
+  --corprincipal2: #1ed1c2;
+  --corfundo: #ffffff;
+  --corletra: #000000;
+  --spacing: 0.5rem;
+}
+
+/* Reset de margens e paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  background: var(--corfundo);
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+header {
+  padding: var(--spacing);
+  text-align: center;
+}
+
+form>p {
+  margin-top: 0.3rem;
+  font-size: 20px;
+}
+
+div>.mes {
+  margin-top: 2rem;
+}
+
+header>section {
+  margin-top: -2.5rem;
+}
+
+section div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing) 0;
+}
+
+div>.logo_head {
+  margin-top: 20px;
+  height: 130px;
+}
+
+nav .cadastroPac {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 3rem;
+  padding-right: 6rem;
+}
+
+.cadastroPac .inputUser {
+  border-color: var(--corprincipal);
+  height: 3rem;
+  width: 30rem;
+  border-radius: 10px;
+  border-width: 1px;
+  text-indent: 0.5rem;
+}
+
+.cadastroPac #select {
+  margin-right: 2rem;
+  margin-left: 0.2rem;
+}
+
+nav>.setor {
+  text-align: center;
+  margin-bottom: var(--spacing);
+}
+
+nav select {
+  border-radius: 0.4rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid var(--corprincipal);
+  background-color: var(--corfundo);
+}
+
+div>#setorhdmjbo {
+  height: 40px;
+  font-size: 15px;
+}
+
+select>option {
+  text-align: left;
+  font-size: 15px;
+}
+
+#submit {
+  background-image: linear-gradient(to right, var(--corprincipal), var(--corprincipal2));
+  margin-bottom: 1rem;
+  width: 10%;
+  border: none;
+  padding: 0.8rem;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+#submit:hover {
+  background-image: linear-gradient(to right, var(--corprincipal2), var(--corprincipal));
+}
+
+/* MAIN */
+main {
+  padding: var(--spacing);
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.tabelaCadastro {
+  width: 100%;
+}
+
+.tabelaCadastro th {
+  text-align: left;
+}
+
+.tabelaCadastro td {
+  font-size: 20px;
+}
+
+.tabelaCadastro button {
+  background-image: linear-gradient(to right, var(--corprincipal), var(--corprincipal2));
+  margin-bottom: 0.8rem;
+  width: 60%;
+  border: none;
+  padding: 0.5rem;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+/* FOOTER */
+footer {
+  padding: var(--spacing);
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.sga_footer {
+  font-size: 18px;
+  padding: 1rem;
+}
+
+
+/* TELA SGA */
+
+.tela_Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.tela_Logo {
+  height: 130px;
+}
+
+.tela_Hospital {
+  font-size: 20pt;
+  font-weight: 800;
+  color: var(--corprincipal);
+  margin-left: -100px;
+}
+
+.tela_subHDMJBO {
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+  margin-left: -100px;
+}
+
+.datahora {
+  font-size: 30px;
+  font-weight: 400;
+  color: black;
+  text-align: right;
+}
+
+.tela_atualPac {
+  background-color: var(--corprincipal);
+  color: white;
+  font-size: 30pt;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.tela_headerPacienteAtual {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.tela_h1 {
+  font-weight: bold;
+  font-size: 20pt;
+}
+
+.tela_prio {
+  font-weight: bold;
+  font-size: 30pt;
+}
+
+.tela_ultimoPac {
+  padding-top: 1rem;
+}
+
+.tela_h1_x2{
+  font-weight: bold;
+  font-size: 20pt;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.tela_listaUltimoPac {
+  font-weight: bold;
+  height: 40%;
+  width: 100%;
+  margin-top: -1rem;
+}
+
+.tela_tabelaUltimoPac {
+  font-size: 30pt;
+  text-align: left;
+  color: rgb(41, 41, 41);
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  max-width: 100%;
+  background-color: transparent;
+  margin-top: 2rem;
+  background-color: #ccc;
+}
+
+.tela_tabelaBody tr{
+  margin-top: 0.5rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+audio {
+  display: none;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+  main>.box_link {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .custom-btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .custom-btn {
+    font-size: 0.875rem;
+    padding: 8px 20px;
+  }
+}

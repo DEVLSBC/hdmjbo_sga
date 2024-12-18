@@ -25,7 +25,7 @@ if (isset($_POST['submit'])) {
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="css/stylepac.css" rel="stylesheet">
+	<link href="css/sga_style.css" rel="stylesheet">
 	<link rel="icon" href="imagens/favicon.png">
 	<title>HDMJBO :: Cadastro</title>
 </head>
@@ -52,7 +52,7 @@ if (isset($_POST['submit'])) {
 
 		<!-- Select para cadastrar paciente -->
 		<nav>
-			<form id="formulario" action="index.php" method="POST">
+			<form id="formulario" action="paciente.php" method="POST">
 
 				<p>-- Cadastro de Paciente --</p>
 				<section class="cadastroPac">
