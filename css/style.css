@@ -1,0 +1,229 @@
+.barraSuperior{
+	height    : 180px;
+	margin-top: 10px;
+}
+
+.senhaAtual{
+	text-align      : left;
+	background-color: #eb9316;
+	color           : white;
+	margin-top      : 0px;
+	font-weight     : 700;
+}
+
+.senhaAtualTexto{
+	font-size  : 65pt;
+	font-weight: 400;
+}
+
+#viewSessionSotorage{
+	font-size: 40pt;
+}
+
+#viewSessionStorage{
+	font-size: 30pt;
+}
+
+#senhaAtualNumero{
+	font-size  : 100pt;
+	font-weight: 800;
+}
+
+#senhaTexto{
+	text-align : left;
+	font-size  : 25px;
+	color      : rgb(41, 41, 41);
+	height     : 400px;
+	margin-left: 10px;
+	font-weight: 550;
+}
+
+.table{
+	font-size : 30pt;
+	color     : white;
+	margin-top: 0px;
+}
+
+.table2{
+	font-size       : 30pt;
+	color           : rgb(41, 41, 41);
+	margin-top      : 35px;
+	border-collapse : collapse;
+	border-spacing  : 0;
+	width           : 100%;
+	max-width       : 100%;
+	margin-bottom   : 20px;
+	background-color: transparent;
+}
+
+
+.ultimaSenha{
+	font-weight     : 700;
+	text-align      : left;
+	background-color: #ccc;
+	height          : 360px;
+	width           : 1170px;
+	margin-left     : auto;
+	margin-right    : auto;
+}
+
+#ultimaSenhaTexto{
+	text-align: left;
+	font-size : 25px;
+	color     : #c06001;
+}
+
+#ultimaSenhaNome{
+	font-size: 20px;
+	color    : black;
+}
+
+#ultimaSenhaLocal{
+	font-size: 18px;
+	
+}
+
+.uespiLogo{
+	max-width  : 200px;
+	margin-left: -30px;
+}
+
+.sisuLogo{
+	max-width: 800px;
+}
+
+.uespiTexto{
+	font-size  : 20pt;
+	font-weight: 800;
+	color      : #da8104;
+	margin-left: -100px;
+}
+
+.subtitulo{
+	font-size  : 20px;
+	font-weight: 400;
+	color      : black;
+	margin-left: -100px;
+}
+
+.datahora{
+	font-size  : 30px;
+	font-weight: 400;
+	color      : black;
+	text-align : right;
+}
+
+audio{
+	display: none;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&subset=greek-ext');
+
+body{
+	  /* background-color: #242424; */
+	background-position: center;
+	background-origin  : content-box;
+	background-repeat  : no-repeat;
+	background-size    : cover;
+	min-height         : 100vh;
+	font-family        : 'Noto Sans', sans-serif;
+}
+.text-center{
+ color         : #fff;
+ text-transform: uppercase;
+ font-size     : 23px;
+ margin        : -50px 0 80px 0;
+ display       : block;
+ text-align    : center;
+}
+.box{
+	position        : absolute;
+	left            : 50%;
+	top             : 50%;
+	transform       : translate(-50%,-50%);
+	background-color: rgba(0, 0, 0, 0.89);
+	border-radius   : 3px;
+	padding         : 70px 100px;
+}
+.input-container{
+	position     : relative;
+	margin-bottom: 25px;
+}
+.input-container label{
+	position     : absolute;
+	top          : 0px;
+	left         : 0px;
+	font-size    : 16px;
+	color        : #fff;
+	pointer-event: none;
+	transition   : all 0.5s ease-in-out;
+}
+.input-container input{ 
+  border       : 0;
+  border-bottom: 1px solid #555;
+  background   : transparent;
+  width        : 100%;
+  padding      : 8px 0 5px 0;
+  font-size    : 16px;
+  color        : #fff;
+}
+.input-container input:focus{ 
+ border       : none;
+ outline      : none;
+ border-bottom: 1px solid #e74c3c;
+}
+.btn{
+	color           : #fff;
+	background-color: #e74c3c;
+	outline         : none;
+	border          : 0;
+	color           : #fff;
+	padding         : 10px 20px;
+	text-transform  : uppercase;
+	margin-top      : 50px;
+	margin-left     : 65px;
+	border-radius   : 2px;
+	cursor          : pointer;
+	position        : relative;
+	text-align      : center;
+}
+  /*.btn:after{
+	content   : "";
+	position  : absolute;
+	background: rgba(0,0,0,0.50);
+	top       : 0;
+	right     : 0;
+	width     : 100%;
+	height    : 100%;
+}*/
+.input-container input: focus ~ label,
+.input-container input: valid ~ label{
+	top      : -12px;
+	font-size: 12px;	
+}
+
+#prioridade{
+	text-align : left;
+	font-size  : 40px;
+	color      : rgb(41, 41, 41);
+	height     : 400px;
+	margin-left: 10px;
+	font-weight: 550;
+}
+
+select{
+	display      : block;
+	width        : auto;
+	border       : 2px solid;
+	background   : transparent;
+	border-radius: 5px;
+	padding      : 5px;
+	margin       : auto;
+	color        : #fff;
+	font-weight  : bold;
+	font-size    : 17px;
+}
+
+option{
+	background-color: black;
+}
